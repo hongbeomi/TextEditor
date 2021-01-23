@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/divider_action_mode_popup_window"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <ImageButton
+            android:id="@+id/imageButton_action_mode_popup_window_clear"
+            style="@style/ActionModePopupWindowButton"
+            android:src="@drawable/ic_eraser" />
+
+        <ImageButton
+            android:id="@+id/imageButton_action_mode_popup_window_highlight"
+            style="@style/ActionModePopupWindowButton"
+            android:src="@drawable/ic_highlighter" />
+
+        <ImageButton
+            android:id="@+id/imageButton_action_mode_popup_window_bold"
+            style="@style/ActionModePopupWindowButton"
+            android:src="@drawable/ic_bold" />
+
+        <ImageButton
+            android:id="@+id/imageButton_action_mode_popup_window_italic"
+            style="@style/ActionModePopupWindowButton"
+            android:src="@drawable/ic_italic" />
+
+        <ImageButton
+            android:id="@+id/imageButton_action_mode_popup_window_underline"
+            style="@style/ActionModePopupWindowButton"
+            android:src="@drawable/ic_underline" />
+
+        <ImageButton
+            android:id="@+id/imageButton_action_mode_popup_window_strike_through"
+            style="@style/ActionModePopupWindowButton"
+            android:src="@drawable/ic_strike_through" />
+
+    </LinearLayout>
+
+</HorizontalScrollView>

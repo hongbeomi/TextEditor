@@ -1,0 +1,3 @@
+include ':TextEditor'
+include ':app'
+rootProject.name = "TextEditor"
